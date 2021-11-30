@@ -2,11 +2,35 @@
 <template>
     <div id="app">
         <div class="column is-half is-offset-one-quarter">
-            <figure class="image is-128x128 img-poke">
-                <img src="./assets/pokebola.png" />
-            </figure>
-            
-
+            <div class="columns">
+                <div class="column is-2">
+                    <figure class="image is-128x128 img-poke">
+                        <img src="./assets/pokebola.png" />
+                    </figure>
+                </div>
+                <div class="column">
+                    <section class="section">
+                        <h7 class="subtitle" style="color:white; ">
+                            <p>UNIVERSIDADE DO ESTADO DE MATO GROSSO</p>
+                            <p>CAMPUS UNIVERSITÁRIO DE SINOP</p>
+                            <p>FACULDADE UNEMAT</p>
+                            <p>CURSO SISTEMAS DE INFORMAÇÃO</p>
+                        </h7>
+                    </section>
+                    <section class="section cabecalho">
+                        <h7 class="subtitle" style="color:white; ">
+                            <p>Disciplina: TÓPICOS ESPECIAIS EM COMPUTAÇÃO APLICADA</p>
+                            <p>Aluno: WILHAN AZEVEDO DIONIZIO </p>
+                            <p>Professor: IVAN LUIZ PEDROSO PIRES </p>
+                        </h7>
+                    </section>
+                </div>
+                <div class="column is-2">
+                    <figure class="image is-96x96 img-poke">
+                        <img src="./assets/unemat.png" />
+                    </figure>
+                </div>  
+            </div>
             <input class="input is-rounded" type="text" name="" id="" placeholder="Buscar pokemon pelo nome"
                 v-model="busca" />
             <!-- <button id="btn-busca" class="button is-info is-fullwidth is-rounded">
@@ -129,4 +153,17 @@
     // .modal-card{
     //     width: 650px !important;
     // }
+
+    .cabecalho {
+        padding-top: 4% !important;
+        padding-left: 10% !important;
+        padding-right: 1px !important;
+        padding-bottom: 1px !important;
+        text-align: left !important;
+        
+    }
+
+    .subtitle {
+       font-size: 0.85rem !important;
+    }
 </style>
