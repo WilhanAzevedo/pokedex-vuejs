@@ -164,6 +164,10 @@ export default {
     height: 100px;
 }
 
+.base:hover{
+    transform: scale(1.2);
+}
+
 .primeira{
     background-color: #f5f5f5;
     border-radius: 50%;
@@ -173,6 +177,10 @@ export default {
     height: 100px;
 }
 
+.primeira:hover{
+    transform: scale(1.2);
+}
+
 .segunda{
     background-color: #f5f5f5;
     border-radius: 50%;
@@ -180,6 +188,10 @@ export default {
     margin: 10px;
     width: 100px;
     height: 100px;
+}
+
+.segunda:hover{
+    transform: scale(1.2);
 }
 
 .poke-ev-img{
