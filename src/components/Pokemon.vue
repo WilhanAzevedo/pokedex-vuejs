@@ -153,6 +153,29 @@
 </script>
 
 <style>
+
+    /* variaveis */
+    :root {
+    --normal-color: #a8a8a891;
+    --grass-color: #37ce2691;
+    --poison-color: #a33ea391;
+    --fire-color: #f5a52391;
+    --flying-color: #a8a8a891;
+    --water-color: #5c9cfc91;
+    --bug-color: #c1d32f91;
+    --electric-color: #f7d02c91;
+    --ground-color: #55351791;
+    --fairy-color: #d685ad91;
+    --fighting-color: #c22e2891;
+    --psychic-color: #f366b491;
+    --rock-color: #b9b9b991;
+    --ice-color: #51d2f491;
+    --ghost-color: #7b62a691;
+    --dragon-color: #6f35b991;
+    --dark-color: #70707091;
+    --steel-color: #b9b9b991;
+    }
+
     .card-pokemon {
         margin-top: 1rem;
         padding: 5px;
@@ -171,7 +194,7 @@
         min-width: 128px;
     }
 
-    
+    /*cards*/
     .card-grass {
         background-color: #37ce2691 !important;
     }

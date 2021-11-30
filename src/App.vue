@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <Informacoes v-if="isModal" :dadosAll="dadosTipo" :modal="isModal" :demages="demage" @close="closeModal" />
+        <Informacoes v-if="isModal" :dadosAll="dadosTipo" :modal="isModal" :demages="demage" @close="closeModal"  @open-evolution-info="openEvolutionInfo"/>
     </div>
 </template>
 
@@ -71,6 +71,9 @@
                 this.isModal = false;
                 this.demage = [];
             },
+            openEvolutionInfo: function (params) {
+                this.dadosTipo = params;
+            },
         },
         computed: {
             resultadoBusca: function(){
@@ -121,4 +124,8 @@
     .img-poke {
         margin: 0 auto;
     }
+
+    // .modal-card{
+    //     width: 650px !important;
+    // }
 </style>
